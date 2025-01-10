@@ -41,9 +41,17 @@ Both charts can be scrolled horizontally and will contain the values of the last
 
 ### Overview screen
 ![Overview](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Overviews.png)
+In this screen you can select an interval of either the last 24 hours, 12 hours, 6 hours or 3 hours.
+Once selected, the values from that interval will be drawn in a line chart. This can give you an idea
+about the values of the selected interval at a glance. Again the x-axis shows the time.
 
 ### Statistics screen
 ![Statistics1](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Statistics1.png)
+The statistics screen contains three diagrams, the first one on top shows you the min and max blood
+glucose values for the last 30 days as dots that are vertically connected by a thin line.
+The average blood glucose values of the last 30 days will be shown as a line chart. On top you can 
+see the range of dates that is visualized and the average value for that range.
+
 
 ![Statistics2](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Statistics2.png)
 
