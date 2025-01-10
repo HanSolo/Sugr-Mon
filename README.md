@@ -52,11 +52,28 @@ glucose values for the last 30 days as dots that are vertically connected by a t
 The average blood glucose values of the last 30 days will be shown as a line chart. On top you can 
 see the range of dates that is visualized and the average value for that range.
 
+The second diagram will show you the median (black line) of the last 30 days and also the values in the
+P10-P90 range (lighter blue) and in the P25-P75 range (darker blue).
 
 ![Statistics2](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Statistics2.png)
+The third diagram shows you the percentage of the time you spend in the different ranges. The ranges are:
+- Too High
+- High
+- Acceptable High
+- Normal
+- Acceptable Low
+- Low
+- Too Low
+As mentioned above, some of these ranges can be adjusted in the settgins. The diagram is based on the
+last 30 days. And it will shows in which range you spend the most time during the last 30 days.
 
 ### Widgets
 ![Widgets](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Widgets.png)
+The SugrMon application comes with two different widgets that you can see on the screenshot. Again the
+color of the widget gives you an idea about the blood glucose value.
+<b> Updating widgets is done by iOS and will be in best case happen every 30 minutes</b>
 
 ### Lockscreen widgets
 ![LockscreenWidgets](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/LockscreenWidgets.png)
+The application provides two different lockscreen widgets. They both show the blood glucose value and
+the trend and the bigger one also shows the time of the value and the HbA1c.
