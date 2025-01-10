@@ -37,3 +37,18 @@ In the line chart you will also find a green area which indicates the "good rang
 The x-axis of the charts will show you the time. 
 
 Both charts can be scrolled horizontally and will contain the values of the last 24 hours
+
+
+### Overview screen
+![Overview](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Overviews.png)
+
+### Statistics screen
+![Statistics1](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Statistics1.png)
+
+![Statistics2](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Statistics2.png)
+
+### Widgets
+![Widgets](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Widgets.png)
+
+### Lockscreen widgets
+![LockscreenWidgets](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/LockscreenWidgets.png)
