@@ -2,6 +2,36 @@
 Your diabetes monitor
 
 
+### General information
+<b>This application needs a [Nightscout](https://nightscout.github.io/) server to fetch the blood glucose data from !</b>
+
+
+### Settings screen
+![Settings1](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Settings1.png)
+![Settings](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Settings2.png)
+In the settings screen you need to add the URL of your nightscout server. If you have configured an 
+API secret and Token, you can put it in the right fields.
+You might select a unit that will be used in SugrMon, either [mg/dl] (default) or [mmol/l].
+The sliders in the Glucose Ranges section can be used to adjust your personal preferences. The default 
+values are defined as follows:
+- Critical Low         55 mg/dl (cannot be changed)
+- Acceptable Low   60 -70 mg/dl
+- Min good         70- 90 mg/dl
+- Max good        120-180 mg/dl
+- Acceptable High 120-250 mg/dl
+- Critical High   250-350 mg/dl
+In the Notifications sections you can define if you would like to receive push notifications with 
+alerts for the following situations:
+- The current blood glucose value is below the defined Acceptable Low value and 55 mg/dl
+- The chance that the next blood glucose value is below 55 mg/dl
+- The current blood glucose value is critical which means below 55 mg/dl
+For the critical low notification you can also switch on Critical which means this notification will
+be send as so called "Critical Alert Notification". These notifications will even be delivered if you are in
+"Do not disturb" mode or the phone is set to quite mode. This can be very useful over night, where you definitely
+want to receive a notification in case the blood glucose value is critical low. In this case the phone will play a
+special tone that is louder than normal and should wake you up when asleep.
+
+
 ### Main screen
 ![MainScreen](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/MainScreen.png)
 
@@ -47,7 +77,7 @@ about the values of the selected interval at a glance. Again the x-axis shows th
 
 ### Statistics screen
 ![Statistics1](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Statistics1.png)
-The statistics screen contains three diagrams, the first one on top shows you the min and max blood
+The statistics screen contains four diagrams, the first one on top shows you the min and max blood
 glucose values for the last 30 days as dots that are vertically connected by a thin line.
 The average blood glucose values of the last 30 days will be shown as a line chart. On top you can 
 see the range of dates that is visualized and the average value for that range.
@@ -66,6 +96,11 @@ The third diagram shows you the percentage of the time you spend in the differen
 - Too Low
 As mentioned above, some of these ranges can be adjusted in the settgins. The diagram is based on the
 last 30 days. And it will shows in which range you spend the most time during the last 30 days.
+
+The fourth diagram will show you the history of HbA1c values over the last year. The SugrMon app will store
+the HbA1c (based on the last 30 days) once a day to iCloud. So over time you will see a line chart that will
+show you all stored values of the last year. On the top right you will see the average HbA1c of all recorded
+values.
 
 ### Widgets
 ![Widgets](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Widgets.png)
