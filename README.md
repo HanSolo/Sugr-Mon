@@ -69,11 +69,14 @@ The x-axis of the charts will show you the time.
 Both charts can be scrolled horizontally and will contain the values of the last 24 hours
 
 
-### Overview screen
-![Overview](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Overviews.png)
+### Selected interval screen
+![Linechart](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/IntervalLinechart.png)
 In this screen you can select an interval of either the last 24 hours, 12 hours, 6 hours or 3 hours.
 Once selected, the values from that interval will be drawn in a line chart. This can give you an idea
 about the values of the selected interval at a glance. Again the x-axis shows the time.
+You can toggle the view between a line chart and a poincare plot by tapping on the chart itself.
+The poincare plot looks as follows:
+![Poincare](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/IntervalPoincare.png)
 
 ### Statistics screen
 ![Statistics1](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Statistics1.png)
@@ -97,10 +100,18 @@ The third diagram shows you the percentage of the time you spend in the differen
 As mentioned above, some of these ranges can be adjusted in the settgins. The diagram is based on the
 last 30 days. And it will shows in which range you spend the most time during the last 30 days.
 
-The fourth diagram will show you the history of HbA1c values over the last year. The SugrMon app will store
-the HbA1c (based on the last 30 days) once a day to iCloud. So over time you will see a line chart that will
-show you all stored values of the last year. On the top right you will see the average HbA1c of all recorded
-values.
+### Histories screen
+The histories screen will show you the history of the time in range (TIR), the daily average and the HbA1c values
+for the last 365 days. The first time you start the app, it will fetch the entries from the last 30 days and will
+add the time in range and daily averages for this period to the chart. 
+Because the HbA1c value is based on the last 30 days in this app, you will only see one value here at the first
+start.
+The app will now record one value every day so that you will see the whole history of the three parameters after
+365 days of use.
+These diagrams can be useful to see the impact of either seasonal behavior (summer/winter) or the effect of holidays
+etc.
+![History1](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Histories1.png)
+![History2](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Histories2.png)
 
 ### Widgets
 ![Widgets](https://github.com/HanSolo/Sugr-Mon/raw/main/screenshots/Widgets.png)
