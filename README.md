@@ -30,6 +30,8 @@ be send as so called "Critical Alert Notification". These notifications will eve
 "Do not disturb" mode or the phone is set to quite mode. This can be very useful over night, where you definitely
 want to receive a notification in case the blood glucose value is critical low. In this case the phone will play a
 special tone that is louder than normal and should wake you up when asleep.
+For the critical notification you could also define the volume that will be used for the notification, the default value is 0.5.
+If you would like to know what the critical alert sound sounds like, you can press the play button and it will play the sound.
 
 
 ### Main screen
@@ -66,7 +68,14 @@ a fill color defined by the value. You will also find the actual number above ea
 In the line chart you will also find a green area which indicates the "good range" of blood glucose values.
 The x-axis of the charts will show you the time. 
 
-Both charts can be scrolled horizontally and will contain the values of the last 24 hours
+Both charts can be scrolled horizontally and will contain the values of the last 24 hours.
+
+In the bottom of the screen you will find multiple buttons, the first button on the left will lead you to the
+selected interval screen where you can see the last 3/6/12 hours as a linechart or poincare plot.
+The second button will lead you to the statistics screen where you will further information about daily average
+values, CGM statistics etc.
+With the third control from the left you can define the number of hours the main screen will show you at once.
+And the fourth button with the gear icon will lead you to the settings screen.
 
 
 ### Selected interval screen
